@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -21,7 +22,8 @@ BODY { font-size: 11pt; font-family: Arial, Helvetica, sans-serif; }
 </style>
 
 </head>
-
+<!DOCTYPE html>
+<html>
 <body>
 <center><u><big>ทำการสุ่ม Random ตัวเลข ทั้งแบบ ไม่ซ้ำ และ ซ้ำ ด้วย PHP</big></u></center>
 
@@ -75,5 +77,14 @@ for($i=0;$i<10;$i++)
 
 </html>
 
+<h2>My First JavaScript</h2>
 
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
 
